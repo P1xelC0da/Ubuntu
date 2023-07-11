@@ -11,8 +11,8 @@ nvm
 nvm install 16
 nvm use 16
 
-sudo apt install gcc g++ make build-essential
-sudo apt install neofetch htop
+sudo apt install gcc g++ make build-essential -y
+sudo apt install neofetch htop -y
 
 sudo apt-get install curl -y
 curl -s https://packagecloud.io/install/repositories/ookla/speedtest-cli/script.deb.sh | sudo bash
